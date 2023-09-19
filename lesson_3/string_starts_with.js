@@ -13,3 +13,4 @@ console.log(startsWith(str, 'put'));             // false
 
 let longerString = 'We put comprehension and mastery above all else!';
 startsWith(str, longerString);      // false
+
