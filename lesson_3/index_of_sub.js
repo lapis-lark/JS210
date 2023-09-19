@@ -23,3 +23,4 @@ console.log(indexOf('potato', 'tat'));
 console.log(lastIndexOf('potatopotato', 'pot'));
 console.log(lastIndexOf('potatopotato', 'ota'));
 console.log(lastIndexOf('potatopotato', 'tat'));
+
