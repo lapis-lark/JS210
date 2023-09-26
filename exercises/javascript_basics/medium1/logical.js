@@ -8,6 +8,7 @@ function getSelectedColumns(numbers, cols) {
       }
 
       result[j][i] = numbers[i][cols[j]];
+      // result[j][i] = numbers[i]
     }
   }
 
