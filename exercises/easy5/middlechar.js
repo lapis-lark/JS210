@@ -1,5 +1,5 @@
 function centerOf(str) {
-  let center = str.length / 2
+  let center = Math.floor(str.length / 2)
   if (str.length % 2 === 0) {
     return str.slice(center - 1, center + 1);
   } else {

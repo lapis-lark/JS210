@@ -1,5 +1,5 @@
 function reverseWords(str) {
-  [...str.split(' ')].map(word => [...word].reverse().join('')).join(' ')
+  return [...str.split(' ')].map(word => [...word].reverse().join('')).join(' ');
 }
 
 reverseWords('Professional');             // "lanoisseforP"
