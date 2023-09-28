@@ -10,6 +10,7 @@ function integerToString(int) {
     digitArr.push(Math.floor(int / 10**(digits - i)));
     int = int % 10**(digits - i)
   }
+  
   digitArr.map(c => String.fromCharCode(ZERO + c))
   return digitArr.join('');
 }
