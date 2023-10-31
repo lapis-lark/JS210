@@ -6,7 +6,7 @@ function logNums() {
 let a = '5';
 var b = '6';
 
-logNums();
+logNums(); // both a and b are global vars and accessible
 
 if (true) {
   let x = '1';

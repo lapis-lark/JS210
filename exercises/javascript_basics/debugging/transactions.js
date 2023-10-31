@@ -1,8 +1,7 @@
 const transactionLog = [];
 
 function processInput(input) {
-  let numericalData = 0
-  numericalData = parseFloat(input);
+  const numericalData = parseFloat(input);
 
   if (Number.isNaN(numericalData)) {
     throw (new Error('Data could not be converted to numerical amount.'));
