@@ -1,5 +1,7 @@
 function wordCap(text) {
-  return text.split(' ').map(word => word[0].toUpperCase() + word.slice(1)).join(' ');
+  return text.split(' ')
+  .map(word => word[0].toUpperCase() + word.slice(1))
+  .join(' ');
 }
 
 wordCap('four score and seven');       // "Four Score And Seven"
