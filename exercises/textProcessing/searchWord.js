@@ -1,5 +1,5 @@
 function searchWord(phrase, text) {
-  let regex = new RegExp(` ${phrase} `, 'ig')
+  let regex = new RegExp(`\\b${phrase}\\b`, 'ig')
   return [...text.matchAll(regex)].length;
 }
 
